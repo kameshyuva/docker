@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  supervisord:
+    build: supervisord
+    image: supervisord
+    container_name: supervisord
+    command: "/usr/bin/supervisord -n -c /etc/supervisord.conf"
+    ports:
+     - "7777:9001"
