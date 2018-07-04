@@ -4,6 +4,7 @@ arg=${1?' need argument [ start, stop ] '}
 shift
 extra_opts=${@}
 
+#demo
 #export LOGSTASHCONF=/logstash/config/logstash.conf
 #export LOGSTASHCONF=/logstash/config/tnt_dashboard_login.conf
 export LOGSTASHCONF=/logstash/config/tnt_dashboard_cons.conf
